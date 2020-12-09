@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>robowars</title>
+  <link rel="stylesheet" href="CSS/style.css">
+    <script>
+			function changeBodyBg(color){
+			document.body.style.background = color;
+		}
+  </script>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">robo wars</a></li>
+  <li><a href="exec.html">executive committee</a></li>
+  <li><a class="active" href="photos.html">photo gallery</a></li>
+  <li><a href="videos.html">video library</a></li>
+  <li><a href="registration.html">registration</a></li>
+</ul>
+<div class="w3-content w3-display-container">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> 
+  <img class="mySlides" src="Media/battle_1.jpg" height ="400px" style="width:50%">
+<p>tombstone doing some damage</p>
+  <img class="mySlides" src="Media/battle_2.jpg" height ="400px" style="width:50%">
+  <p>big collision betwen two robots</p>
+  <img class="mySlides" src="Media/battle_3.jpg" height ="400px" style="width:50%">
+<p>spark showering down on the battle ground</p>
+  <img class="mySlides" src="Media/battle_4.jpg" height ="400px" style="width:50%">
+<p>a robot is sent flying</p>
+  <img class="mySlides" src="Media/battle_5.jpg" height ="400px" style="width:50%">
+ <p>spectators watching epic spectacle of sparks</p>
+  <img class="mySlides" src="Media/battle_6.jpg" height ="400px" style="width:50%">
+  <p>lucky sending a robot flying</p>
+
+
+</div>
+<input type="button" value="Cornflower" OnClick="changeBodyBg('cornflowerblue')">
+<input type="button" value="Yellow" OnClick="changeBodyBg('yellow')">
+<input type="button" value="Green" OnClick="changeBodyBg('green')">
+<input type="button" value="Coral" OnClick="changeBodyBg('lightcoral')">
+<script src="JS/code.js"></script>
+ 
+</body>
+
+
+</html>
